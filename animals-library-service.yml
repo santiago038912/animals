@@ -7,7 +7,7 @@ spring:
   
   sql:
     init:
-      dataLocations: classpath:/games-library-service.sql  
+      dataLocations: classpath:/animals-library-service.sql  
       
   jpa:  
     defer-datasource-initialization: true
