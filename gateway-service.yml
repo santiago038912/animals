@@ -18,11 +18,11 @@ spring:
           enabled: true
           lower-case-service-id: true
       routes:
-        - id: games-service-route
-          uri: lb://games-service
+        - id: animals-service-route
+          uri: lb://animals-service
           predicates:
             - Path=/games/**
-        - id: games-library-service-route
-          uri: lb://games-library-service
+        - id: animals-library-service-route
+          uri: lb://animals-library-service
           predicates:
             - Path=/library/**
